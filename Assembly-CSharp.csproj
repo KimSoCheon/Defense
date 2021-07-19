@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B0A52547-903A-F00D-7A34-B6A7E2DE5985}</ProjectGuid>
+    <ProjectGuid>{06F954D9-3FFA-E4E0-CD43-7C995C5845F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,13 +59,17 @@
     <Compile Include="Assets\Script\EnemyDestroy.cs" />
     <Compile Include="Assets\Script\EnemyMaker.cs" />
     <Compile Include="Assets\Script\GameMGR.cs" />
+    <Compile Include="Assets\DownRod\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
     <Compile Include="Assets\Script\TowerBuildingManager.cs" />
     <Compile Include="Assets\Script\EnemyController.cs" />
     <Compile Include="Assets\Script\CSVReader.cs" />
     <Compile Include="Assets\Script\UIManager.cs" />
     <Compile Include="Assets\Script\TowerController.cs" />
     <Compile Include="Assets\Script\MouseController.cs" />
+    <Compile Include="Assets\DownRod\AurynSky\Forest Pack\Scripts\WheelController.cs" />
+    <Compile Include="Assets\DownRod\AurynSky\Forest Pack\Scripts\ChestDemo.cs" />
     <Compile Include="Assets\Script\NewBehaviourScript.cs" />
+    <Compile Include="Assets\DownRod\AurynSky\Forest Pack\Scripts\Rotator.cs" />
     <Compile Include="Assets\Script\UpGradeManager.cs" />
     <Compile Include="Assets\Script\EnemyDetecting.cs" />
     <Compile Include="Assets\Script\BulletController.cs" />
@@ -73,6 +77,8 @@
     <Compile Include="Assets\Script\HUDHpbar.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\DownRod\FutureAgeGameUI_Free\readme.txt" />
+     <None Include="Assets\DownRod\AurynSky\Forest Pack\READ ME.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -634,9 +640,6 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -651,9 +654,6 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>

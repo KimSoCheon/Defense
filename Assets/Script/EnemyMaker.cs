@@ -50,7 +50,7 @@ public class EnemyMaker : MonoBehaviour
         {
             int a = (int)timeCur;
             timeCur -=  Time.deltaTime;
-            timeCurText.text = "다음스테이지 시작까지 남은 시간 : " + (int)timeCur;
+            timeCurText.text = "StageTime : " + (int)timeCur;
 
             if (timeCur < timeCool)
             {

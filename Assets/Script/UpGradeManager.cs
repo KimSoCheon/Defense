@@ -24,7 +24,7 @@ public class UpGradeManager : MonoBehaviour
 
     void Update()
     {
-        mySp.text = "My Sp : " + towerBuildingManager.mySp;
+        mySp.text = "Sp : " + towerBuildingManager.mySp;
         stageLvText.text = "StageLv : " + stageLv;
     }
 
