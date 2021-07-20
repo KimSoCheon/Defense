@@ -56,29 +56,61 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Demo\Assets\WFX_Demo_DeleteAfterDelay.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
     <Compile Include="Assets\Script\EnemyDestroy.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Demo\Assets\WFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\Script\EnemyMaker.cs" />
     <Compile Include="Assets\Script\GameMGR.cs" />
-    <Compile Include="Assets\DownRod\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
+    <Compile Include="Assets\DownRod\Ground\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
     <Compile Include="Assets\Script\TowerBuildingManager.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
     <Compile Include="Assets\Script\EnemyController.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\Script\CSVReader.cs" />
     <Compile Include="Assets\Script\UIManager.cs" />
     <Compile Include="Assets\Script\TowerController.cs" />
     <Compile Include="Assets\Script\MouseController.cs" />
-    <Compile Include="Assets\DownRod\AurynSky\Forest Pack\Scripts\WheelController.cs" />
-    <Compile Include="Assets\DownRod\AurynSky\Forest Pack\Scripts\ChestDemo.cs" />
-    <Compile Include="Assets\Script\NewBehaviourScript.cs" />
-    <Compile Include="Assets\DownRod\AurynSky\Forest Pack\Scripts\Rotator.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
+    <Compile Include="Assets\Script\BulletSoundDestroy.cs" />
+    <Compile Include="Assets\DownRod\Ground\AurynSky\Forest Pack\Scripts\WheelController.cs" />
+    <Compile Include="Assets\DownRod\Ground\AurynSky\Forest Pack\Scripts\ChestDemo.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+    <Compile Include="Assets\DownRod\Ground\AurynSky\Forest Pack\Scripts\Rotator.cs" />
     <Compile Include="Assets\Script\UpGradeManager.cs" />
+    <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
     <Compile Include="Assets\Script\EnemyDetecting.cs" />
     <Compile Include="Assets\Script\BulletController.cs" />
     <Compile Include="Assets\Script\ScenesManager.cs" />
     <Compile Include="Assets\Script\HUDHpbar.cs" />
+    <Compile Include="Assets\Free HDR Skyboxes Pack\Example Scenes\Script\RotateCamera.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\DownRod\FutureAgeGameUI_Free\readme.txt" />
-     <None Include="Assets\DownRod\AurynSky\Forest Pack\READ ME.txt" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\_Effects\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\DownRod\Sound\ShootingSound\ReadMe.txt" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
+     <None Include="Assets\DownRod\UI\FutureAgeGameUI_Free\readme.txt" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S Add Scroll.shader" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\_Effects (Mobile)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S Particle Add A8.shader" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S Smoke Scroll.shader" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
+     <None Include="Assets\Free HDR Skyboxes Pack\ReadMe.txt" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\!WarFX Readme.txt" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S Alpha-Diffuse TintColor.shader" />
+     <None Include="Assets\DownRod\Ground\AurynSky\Forest Pack\READ ME.txt" />
+     <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend NoSoftParticles.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

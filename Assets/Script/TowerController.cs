@@ -6,12 +6,12 @@ public class TowerController : MonoBehaviour
 {
     public TowerBuildingManager towerBuildingManager;
     public UpGradeManager upGradeManager;
-
     public int attackPower;
     public float attackCurTime;
     public float attackSpeed;
     public GameObject targetEnemy;
     public GameObject bulletPrefab;
+    public GameObject bulletSound;
 
     public int powerSp = 10;
     public int speedSp = 10;
@@ -58,6 +58,8 @@ public class TowerController : MonoBehaviour
                         transform.LookAt(targetEnemy.transform);
                         attackCurTime = 0;
                         GameObject bullet = Instantiate(bulletPrefab);
+                        bulletSound.transform.position = transform.position;
+                        Instantiate(bulletSound);
                         bullet.transform.position = transform.position;
                         bullet.GetComponent<BulletController>().target = targetEnemy;
                         bullet.GetComponent<BulletController>().bulletDamage = attackPower;

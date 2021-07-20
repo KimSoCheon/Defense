@@ -102,6 +102,8 @@ MonoBehaviour:
   characterController: {fileID: 0}
   curTargetPos: {fileID: 5066907562679537132}
   rotationSpeed: 10
+  damageEffect: {fileID: 100002, guid: 20b31fcfaed0cb842a56fbbe2419428f, type: 3}
+  damageSnd: {fileID: 1211586900849346373, guid: 0c9ea7533ad54f84199ecfbe61b7ac8a, type: 3}
   enemyHp: 10
   enemySpeed: 1.5
   enemySp: 1

@@ -112,11 +112,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerBuildingManager: {fileID: 0}
   upGradeManager: {fileID: 0}
-  attackPower: 4
+  attackPower: 2
   attackCurTime: 0
   attackSpeed: 0.86
   targetEnemy: {fileID: 0}
   bulletPrefab: {fileID: 2812813636182300609, guid: 8519e817493067447ae65dbe65496ff4, type: 3}
+  bulletSound: {fileID: 6876988674704312918, guid: af0ab56c286e1764d8b1ca43c95218be, type: 3}
   powerSp: 10
   speedSp: 10
   towerState: 0

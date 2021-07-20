@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 public class EnemyController : MonoBehaviour
 {
     public TowerBuildingManager towerBuildingManager;
@@ -9,6 +10,8 @@ public class EnemyController : MonoBehaviour
     public Transform curTargetPos;
     public float rotationSpeed = 10f;
     //public GameObject deadEffect;
+    public GameObject damageEffect;
+    public GameObject damageSnd;
 
     public int enemyHp;
     public float enemySpeed;
@@ -51,6 +54,10 @@ public class EnemyController : MonoBehaviour
     public void DamageByBullet(int dmg)
     {
         enemyHp -= dmg;
+        damageEffect.transform.position = transform.position;
+        Instantiate(damageEffect);
+        Instantiate(damageSnd);
+
         if (enemyHp <= 0)
         {
             towerBuildingManager.mySp += enemySp;

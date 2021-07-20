@@ -30,14 +30,17 @@ public class UpGradeManager : MonoBehaviour
 
     public void PowerUp()
     {
-        if (towerBuildingManager.mySp >= upGradeTarget.GetComponent<TowerController>().powerSp)
+        if(upGradeTarget.GetComponent<TowerController>().attackPower < 76)
         {
-            powerLv++;
-            towerBuildingManager.mySp -= upGradeTarget.GetComponent<TowerController>().powerSp;
-            upGradeTarget.GetComponent<TowerController>().attackPower += 5;
-            upGradeTarget.GetComponent<TowerController>().powerSp += 10;
-            powerSpText.text = "Sp : " + upGradeTarget.GetComponent<TowerController>().powerSp;
-            powerSpText = GameObject.Find("PowerSp").GetComponent<Text>();
+            if (towerBuildingManager.mySp >= upGradeTarget.GetComponent<TowerController>().powerSp)
+            {
+                powerLv++;
+                towerBuildingManager.mySp -= upGradeTarget.GetComponent<TowerController>().powerSp;
+                upGradeTarget.GetComponent<TowerController>().attackPower += 3;
+                upGradeTarget.GetComponent<TowerController>().powerSp += 10;
+                powerSpText.text = "Sp : " + upGradeTarget.GetComponent<TowerController>().powerSp;
+                powerSpText = GameObject.Find("PowerSp").GetComponent<Text>();
+            }
         }
     }
 
