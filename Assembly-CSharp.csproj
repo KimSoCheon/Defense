@@ -74,6 +74,7 @@
     <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\Script\CSVReader.cs" />
     <Compile Include="Assets\Script\UIManager.cs" />
+    <Compile Include="Assets\Free HDR Skyboxes Pack\Example Scenes\Script\RotateCamera.cs" />
     <Compile Include="Assets\Script\TowerController.cs" />
     <Compile Include="Assets\Script\MouseController.cs" />
     <Compile Include="Assets\DownRod\Effect\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
@@ -89,7 +90,6 @@
     <Compile Include="Assets\Script\BulletController.cs" />
     <Compile Include="Assets\Script\ScenesManager.cs" />
     <Compile Include="Assets\Script\HUDHpbar.cs" />
-    <Compile Include="Assets\Free HDR Skyboxes Pack\Example Scenes\Script\RotateCamera.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\DownRod\Effect\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
@@ -695,6 +695,12 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
